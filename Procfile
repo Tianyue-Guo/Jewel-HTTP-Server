@@ -1,1 +1,1 @@
-web: gunicorn jewel:main
+web: gunicorn jewel.py
