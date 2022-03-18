@@ -5,6 +5,7 @@ import sys
 import select
 from file_reader import FileReader
 import queue
+import os
 
 class Jewel:
 
@@ -135,7 +136,7 @@ class Jewel:
     
 
 if __name__ == "__main__":
-    port = 1011
+    port = os.environ.get('PORT', 5000)
     file_path = './pic'
 
     FR = FileReader()
