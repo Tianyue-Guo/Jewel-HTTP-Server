@@ -135,8 +135,8 @@ class Jewel:
     
 
 if __name__ == "__main__":
-    port = int(sys.argv[1])
-    file_path = sys.argv[2]
+    port = 1011
+    file_path = './pic'
 
     FR = FileReader()
 
