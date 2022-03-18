@@ -136,7 +136,11 @@ class Jewel:
     
 
 if __name__ == "__main__":
-    port = os.environ.get('PORT', 5000)
+    ON_HEROKU = os.environ.get('ON_HEROKU')
+    if ON_HEROKU:
+        port = int(os.environ.get('PORT', 17995))
+    else:
+        port = 3000
     file_path = './pic'
 
     FR = FileReader()
