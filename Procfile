@@ -1,1 +1,1 @@
-web: gunicorn jewel:application
+web: gunicorn jewel.py 1011 ./pic
