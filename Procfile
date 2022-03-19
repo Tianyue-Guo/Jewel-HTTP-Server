@@ -1,1 +1,1 @@
-web: python3 jewel.py
+worker: python3 jewel.py
