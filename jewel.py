@@ -41,7 +41,7 @@ class Jewel:
                     inputs.append(client)
                     message_queues[client] = queue.Queue()
                 else:
-                    data = server.recv(2**18).decode()
+                    data = server.recv(2**31).decode()
                     if data:
                         message_queues[server].put(data)
                         if server not in outputs:
@@ -138,7 +138,7 @@ class Jewel:
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
     file_path = '.'
-    
+
     FR = FileReader()
 
     J = Jewel(port, file_path, FR)
