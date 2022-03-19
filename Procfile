@@ -1,1 +1,1 @@
-web: python3 jewel.py 1011 ./pic
+web: python3 jewel.py
