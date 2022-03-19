@@ -137,8 +137,8 @@ class Jewel:
 
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
-    file_path = './pic'
-
+    file_path = '.'
+    
     FR = FileReader()
 
     J = Jewel(port, file_path, FR)

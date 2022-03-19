@@ -1,0 +1,1 @@
+I visited U of Michigan in May 2021, when I was with my high school friend who is a college student there. This is me at Ann & Robert H. Lurie Tower of North Campus. 
